@@ -17,7 +17,9 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "storybook": "storybook dev",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "next": "13.3.1",
@@ -25,16 +27,31 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.4",
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
+    "@storybook/addon-actions": "^7.0.7",
+    "@storybook/addon-essentials": "^7.0.7",
+    "@storybook/addon-interactions": "^7.0.7",
+    "@storybook/addon-links": "^7.0.7",
+    "@storybook/addon-mdx-gfm": "7.0.7",
+    "@storybook/nextjs": "7.0.7",
+    "@storybook/react": "^7.0.7",
+    "@storybook/testing-library": "^0.1.0",
     "@types/node": "18.16.1",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
+    "babel-loader": "^8.3.0",
     "cross-env": "^7.0.3",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
+    "eslint-plugin-storybook": "^0.6.11",
     "husky": "^8.0.3",
     "prettier": "^2.8.8",
+    "storybook": "future",
     "typescript": "5.0.4"
+  },
+  "resolutions": {
+    "webpack": "^5"
   }
 }
