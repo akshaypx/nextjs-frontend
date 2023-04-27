@@ -1,7 +1,16 @@
 {
   "name": "nextjs-frontend",
+  "author": "AKSHAY-SRIVASTAVA",
+  "description": "A starter template for next js.",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "homepage": "https://github.com/akshaypx/nextjs-frontend.git",
+  "engines": {
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
